@@ -1,7 +1,7 @@
 {
-	"domain": "entity_controller",
-	"name": "Entity Controller",
-	"documentation": "https://github.com/danobot/entity-controller/blob/master/README.md",
+	"domain": "entrance_controller",
+	"name": "Entrance Controller",
+	"documentation": "https://github.com/primerib/entrance-controller/blob/master/README.md",
 	"requirements": [
 		"transitions==0.8.8"
 	],
