@@ -1,7 +1,7 @@
 {
-  "name": "entity-controller",
+  "name": "entrance-controller",
   "version": "9.7.1",
-  "description": "Entity Controller (EC) is an implementation of 'When This, Then That' using a finite state machine that ensures basic automations do not interfere with the rest of your home automation setup. This component encapsulates common automation scenarios into a neat package that can be configured easily and reused throughout your home.",
+  "description": "Entrance Controller is a forked and extended Entity Controller. Entity Controller (EC) is an implementation of 'When This, Then That' using a finite state machine that ensures basic automations do not interfere with the rest of your home automation setup. This component encapsulates common automation scenarios into a neat package that can be configured easily and reused throughout your home.",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danobot/entity-controller"
+    "url": "https://github.com/primerib/entrance-controller"
   },
-  "author": "Daniel Mason",
+  "author": "Daniel Mason (mod by Erich)",
   "license": "GNU General Public License v3.0",
   "devDependencies": {
     "replace-in-file": "^3.4.3",
@@ -24,7 +24,7 @@
   },
   "standard-version": {
     "scripts": {
-      "precommit": "node postbump.js; git add custom_components/entity_controller/__init__.py; git add custom_components/entity_controller/manifest.json; git add package.json "
+      "precommit": "node postbump.js; git add custom_components/entrance_controller/__init__.py; git add custom_components/entrance_controller/manifest.json; git add package.json "
     }
   }
 }
