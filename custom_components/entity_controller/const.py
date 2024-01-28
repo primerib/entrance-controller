@@ -17,8 +17,8 @@ along with Entity Controller.  If not, see <https://www.gnu.org/licenses/>.
 """
 """ Constants used by other files """
 
-DOMAIN = "entity_controller"
-DOMAIN_SHORT = "ec"
+DOMAIN = "entry_controller"
+DOMAIN_SHORT = "enc"
 
 # services
 SERVICE_ACTIVATE = "activate"
